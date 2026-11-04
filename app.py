@@ -1,7 +1,7 @@
 """Tiny demo service for Shipyard."""
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
-GREETING = "Hello from shipyard-demo"
+GREETING = "Hello from the reworded greeting"
 FOOTER = "v1"
 
 
