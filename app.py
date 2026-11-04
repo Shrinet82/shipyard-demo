@@ -2,7 +2,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 GREETING = "Hello from Shipyard demo"
-FOOTER = "v1"
+FOOTER = "v2"
 
 
 def render() -> str:
