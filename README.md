@@ -10,3 +10,5 @@ CI, merges and deploys driven from chat. The open pull requests are deliberate t
 | Bump the version footer | a clean merge and deploy |
 | Add footer check | a failing test, merge refused |
 | Reword the greeting | conflicts with main, merge refused |
+
+CI runs on every pull request and on pushes to main.
