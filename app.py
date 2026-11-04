@@ -9,9 +9,13 @@ def render() -> str:
     return f"{GREETING} ({FOOTER})\n"
 
 
+def health() -> str:
+    return "ok\n"
+
+
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
-        body = render().encode()
+        body = (health() if self.path == "/health" else render()).encode()
         self.send_response(200)
         self.send_header("Content-Type", "text/plain")
         self.send_header("Content-Length", str(len(body)))
