@@ -1,3 +1,4 @@
+# demo only: a change to the CI workflow, which the Shipyard gate cannot trust
 name: ci
 on:
   pull_request:
