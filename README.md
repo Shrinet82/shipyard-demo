@@ -12,3 +12,5 @@ CI, merges and deploys driven from chat. The open pull requests are deliberate t
 | Reword the greeting | conflicts with main, merge refused |
 
 CI runs on every pull request and on pushes to main.
+
+<!-- webhook test 1793885874 -->
